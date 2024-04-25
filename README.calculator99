@@ -1,4 +1,10 @@
-   System.out.print("Enter the first number \n");
+import java.util.*
+
+//Simple calculator
+
+public class calc { public static void main(String[] args) { Scanner in = new Scanner(System.in); double a, b, c = 0.0;
+
+System.out.print("Enter the first number \n");
         a = in.nextDouble();
         System.out.print("And enter second  \n");
         b = in.nextDouble();
